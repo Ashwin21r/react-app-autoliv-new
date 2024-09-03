@@ -1,20 +1,22 @@
-
-import Header from "./supplier acess/Header";
-import Footer from "./supplier acess/Footer";
-import Content from "./content";
-
-
+import Footer from "./assets/Footer";
+import Header from "./assets/Header";
+import Website from "./assets/Website";
+import Login from "./assets/Login";
 function App() {
   return (
       <>
 
-<Header/>
-<Content/>
-<Footer/>
 
+<Header/>
+   <Website/>
+   <Login/>
   
- 
- 
+        
+       
+          
+        
+        <Footer />
+        
       </>
 
     );
