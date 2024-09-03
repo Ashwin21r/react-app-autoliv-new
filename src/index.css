@@ -1,0 +1,454 @@
+.Header-image{
+border-collapse: separate;
+    text-indent: initial;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 20px;
+    white-space: normal;
+    font-variant: normal;
+        position: relative;
+        top: 0px;    /* Move down by 50px */
+        left: 120px;
+        width: 1600px;  /* Adjust the size of the image */
+      }
+      .Header-image-2{
+        margin-left: 120px;
+        margin-right: auto;
+        top: -520px;
+        position: relative;
+        width: 1600px;
+      }
+      .Header-image-3{
+        margin-left: 120px;
+        margin-right: auto;
+        top: -233px;
+        position: relative;
+        width: 1600px;
+      }
+      .Header-logo{
+        margin-left: 280px;
+        margin-right: auto;
+        top: -700px;
+        position: relative;
+        width: 142px;
+        border-collapse: separate;
+        text-indent: initial;
+        line-height: normal;
+        font-weight: normal;
+        font-size: medium;
+        font-style: normal;
+        text-align: start;
+        border-spacing: 2px;
+        white-space: normal;
+        font-variant: normal;
+
+      }
+      .AutolivPartnerPortalText{
+        left: 400px;
+        top: -415px;
+        position: relative;
+        font-size: 60px;
+        width: 2500px;
+        color: #005495;
+        font-family: Archivo, 'sans-serif';
+        font-style: normal;
+        border-collapse: separate;
+        text-indent: initial;
+        line-height: normal;
+        font-weight: normal;
+        border-spacing: 3px;
+        white-space: normal;
+        font-variant: normal;
+    }    
+.autoliv-content{
+        left: -10px;
+    font-family: Archivo, 'sans-serif';
+    position: absolute;
+    width: 800px;
+    height: 153px;
+    font-size: 22px;
+}
+    
+html{
+    height: 100%;
+    margin: 0px;
+    width: 342px;
+    height: 100px;
+    border-top-width: 10px;
+    border-bottom-width: 0px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    margin-inline-start:auto;
+    margin-inline-end: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x:hidden;
+  }
+body{
+    
+        margin: 0px;
+        padding: 0px;
+    }
+    .topnav-options{
+        color: #005495;
+    font-family: Archivo, 'sans-serif';
+    FONT-WEIGHT: bold;
+    padding: 5px 18px 5px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    PADDING-BOTTOM: 10px;
+    MARGIN: 3px 0px 0px;
+    PADDING-LEFT: 15px;
+    PADDING-RIGHT: 15px;
+    TEXT-DECORATION: none;
+    PADDING-TOP: 3px;
+    text-shadow: #e9f1fa 1px 1px 0;
+    display: inline-block;
+}
+.PartnerPortalContent{
+    left: 298px;
+    top: 550px;
+    font-family: Archivo, 'sans-serif';
+    position: absolute;
+    width: 812px;
+    height: 153px;
+    font-size: 22px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.PartnerPortalContent-1{
+    left: 298px;
+    top: 640px;
+    font-family: Archivo, 'sans-serif';
+    position: absolute;
+    width: 800px;
+    height: 153px;
+    font-size: 22px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.Header-portalcontent{
+    left: 298px;
+    top: 730px;
+    font-family: Archivo, 'sans-serif';
+    font-weight: lighter;
+    left: 298px;
+    position: absolute;
+    
+
+}
+.PartnerPortalContent-2{
+    left: 298px;
+    top: 800px;
+    font-family: Archivo, 'sans-serif';
+    position: absolute;
+    width: 800px;
+    height: 153px;
+    font-size: 22px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.PartnerPortalContent-3{
+    left: 298px;
+    top: 900px;
+    font-family: Archivo, 'sans-serif';
+    position: absolute;
+    width: 800px;
+    height: 153px;
+    font-size: 22px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.PartnerPortalContent-4{
+    left: 298px;
+    top: 1040px;
+    font-family: Archivo, 'sans-serif';
+    position: absolute;
+    width: 800px;
+    height: 153px;
+    font-size: 22px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.footer-text{
+    position: relative;
+    top:650px;
+    left: 100px;
+    font-family: 'Archivo', 'sans-serif';
+    font-size: 16px;
+    background-color: #002851;
+    color:white;
+    width: 900px;
+    border: 1px solid black;
+    border-radius:5px;
+    box-shadow:5px 5px 5px hsl(0, 0%, 0.1);
+    padding:30px;
+    padding-right:400px; 
+    padding-left: 300px;
+    padding-top:70px;
+    justify-content: center;
+}
+.site-policy{
+    font-size:18px;
+}
+
+.link {
+    position: relative;
+    top: -880px;
+    left: 675px;
+    font-size: 18px;
+    color: #005495; /* Text color */
+    font-family: 'Archivo', 'sans-serif';
+    font-weight: bold; /* Use lowercase for consistency */
+    padding: 5px 18px 5px;
+    text-decoration: none; /* Removes underline */
+    line-height: 20px;
+    margin: 3px 0px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    text-shadow: #e9f1fa 1px 1px 0;
+    display: inline-block; 
+    cursor: pointer; 
+  
+
+ 
+}
+
+.link:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+    color: #004080; /* Optional: Change color on hover */
+}
+.link-1{
+    position: relative;
+    top: -932px;
+    left: 760px;
+    font-size: 18px;
+    color: #005495; /* Text color */
+    font-family: 'Archivo', 'sans-serif';
+    font-weight: bold; /* Use lowercase for consistency */
+    padding: 5px 18px 5px;
+    text-decoration: none; /* Removes underline */
+    line-height: 20px;
+    margin: 3px 0px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    text-shadow: #e9f1fa 1px 1px 0;
+    display: inline-block; 
+    cursor: pointer; 
+    width: 800px;
+
+ 
+}
+
+.link:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+    color: #004080; /* Optional: Change color on hover */
+}
+.link-2{
+    position: relative;
+    top: -984px;
+    left: 930px;
+    font-size: 18px;
+    color: #005495; /* Text color */
+    font-family: 'Archivo', 'sans-serif';
+    font-weight: bold; /* Use lowercase for consistency */
+    padding: 5px 18px 5px;
+    text-decoration: none; /* Removes underline */
+    line-height: 20px;
+    margin: 3px 0px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    text-shadow: #e9f1fa 1px 1px 0;
+    display: inline-block; 
+    cursor: pointer; 
+    width: 800px;
+
+ 
+}
+
+.link:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+    color: #004080; /* Optional: Change color on hover */
+}
+.link-3{
+    position: relative;
+    top: -1036px;
+    left: 1030px;
+    font-size: 18px;
+    color: #005495; /* Text color */
+    font-family: 'Archivo', 'sans-serif';
+    font-weight: bold; /* Use lowercase for consistency */
+    padding: 5px 18px 5px;
+    text-decoration: none; /* Removes underline */
+    line-height: 20px;
+    margin: 3px 0px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    text-shadow: #e9f1fa 1px 1px 0;
+    display: inline-block; 
+    cursor: pointer; 
+    width: 800px;
+
+ 
+}
+
+.link:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+    color: #004080; /* Optional: Change color on hover */
+}
+.link-4{
+    position: relative;
+    top: -1088px;
+    left: 1250px;
+    font-size: 18px;
+    color: #005495; /* Text color */
+    font-family: 'Archivo', 'sans-serif';
+    font-weight: bold; /* Use lowercase for consistency */
+    padding: 5px 18px 5px;
+    text-decoration: none; /* Removes underline */
+    line-height: 20px;
+    margin: 3px 0px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    text-shadow: #e9f1fa 1px 1px 0;
+    display: inline-block; 
+    cursor: pointer; 
+    width: 800px;
+
+ 
+}
+
+.link:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+    color: #004080; /* Optional: Change color on hover */
+}
+.link-5{
+    position: relative;
+    top: -1140px;
+    left: 1370px;
+    font-size: 18px;
+    color: #005495; /* Text color */
+    font-family: 'Archivo', 'sans-serif';
+    font-weight: bold; /* Use lowercase for consistency */
+    padding: 5px 18px 5px;
+    text-decoration: none; /* Removes underline */
+    line-height: 20px;
+    margin: 3px 0px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    text-shadow: #e9f1fa 1px 1px 0;
+    display: inline-block; 
+    cursor: pointer; 
+    width: 800px;
+
+ 
+}
+
+.link:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+    color: #004080; /* Optional: Change color on hover */
+}
+
+/* Login Page Styles */
+.login-container {
+ 
+        left: 1200px;
+        top: 480px;
+        position: absolute;
+        height: 300px;
+        width: 300px;
+      
+    width: 15%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    background-color: #005495;
+    text-align: center;
+
+       
+  }
+  
+  h2 {
+    color: #005495;
+    font-family: 'Archivo', 'sans-serif';
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    font-family: 'Archivo', 'sans-serif';
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  .input-group input {
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button {
+    width: 40%;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #004080;
+  }
+  
