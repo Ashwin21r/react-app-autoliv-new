@@ -4,6 +4,8 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Supplier from '../assets/Supplier'; // Correct path
 import Homepage from '../assets/Homepage'; // Correct path
+import Support from '../assets/Support';
+import Generalrequirment from '../assets/Generalrequirment';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +15,17 @@ const router = createBrowserRouter([
   {
     path: '/supplier',  // Route for Supplier page
     element: <Supplier />,
+  },
+  
+  {
+    path:'/support',
+    element:<Support/>
+
+  },
+  {
+    path:'/genralrequirment',
+    element:<Generalrequirment/>
+
   }
 ]);
 

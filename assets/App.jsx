@@ -1,5 +1,7 @@
 import Supplier from "./Supplier";
 import Homepage from "./Homepage";
+import Support from "./Support";
+import Generalrequirment from "./Generalrequirment";
 
 
 function App() {
@@ -8,6 +10,9 @@ function App() {
 
 <Homepage/>
 <Supplier/>
+<Supplier/>
+<Support/>
+<Generalrequirment/>
         
       </>
 
