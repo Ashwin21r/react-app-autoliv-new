@@ -7,11 +7,11 @@ import Homepage from '../assets/Homepage'; // Correct path
 
 const router = createBrowserRouter([
   {
-    path: '/main',  // Route for Homepage
+    path: 'https://react-app-5ph5.vercel.app/',  // Route for Homepage
     element: <Homepage />,
   },
   {
-    path: '/supplier',  // Route for Supplier page
+    path: 'https://react-app-5ph5.vercel.app/supplier',  // Route for Supplier page
     element: <Supplier />,
   }
 ]);
