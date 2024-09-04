@@ -1,26 +1,17 @@
 
-import Header from "../assets/Header";
-import Website from "../assets/Website";
-import Login from "../assets/Login";
-import Footer from "../assets/Footer";
+
+import SupplierAccess from "../assets/Supplier";
+import Homepage from "../assets/Homepage";
+
+
 function App() {
   return (
-      <>
+      
 
 
-<Header/>
-   <Website/>
-   <Login/>
-  
-        
-       
-          
-        
-        <Footer />
-        
-      </>
+   <><Homepage /><SupplierAccess /></>
 
     );
   }
 
-export default App;
+export default App 

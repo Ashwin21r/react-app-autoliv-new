@@ -1,24 +1,13 @@
-
-import Website from "./Website";
-import Header from"./Header";
-import Login from "./Login";
-import Footer from "./Footer";
+import Supplier from "./Supplier";
+import Homepage from "./Homepage";
 
 
 function App() {
   return (
       <>
 
-
-<Header/>
-   <Website/>
-   <Login/>
-  
-        
-       
-          
-        
-        <Footer />
+<Homepage/>
+<Supplier/>
         
       </>
 
