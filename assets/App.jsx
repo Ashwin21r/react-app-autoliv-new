@@ -12,6 +12,7 @@ function App() {
       <Route path="/supplier" component={Supplier} />
       <Route path="/support" component={Support} />
       <Route path="/genralrequirment" exact component={Generalrequirment} />
+      <Route component={Homepage} /> {/* Fallback route for 404 */}
     </Switch>
   </Router>
     );
