@@ -11,6 +11,7 @@ function App() {
 
     <Router>
     <Switch>
+    <Route path="/" component={Homepage} />
       <Route path="/main" component={Homepage} />
       <Route path="/supplier" component={SupplierAccess} />
       <Route path="/support" component={Support} />
