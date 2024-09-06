@@ -1,4 +1,4 @@
-import Supplier from "./Supplier";
+import SupplierAccess from "./SupplierAccess";
 import Homepage from "./Homepage";
 import Support from "./Support";
 import Generalrequirment from "./Generalrequirment";
@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
     <Switch>
-    <Route path="/" component={Homepage} />
+    <Route path="/main" component={Homepage} />
       <Route path="/main" component={Homepage} />
       <Route path="/supplier" component={Supplier} />
       <Route path="/support" component={Support} />
