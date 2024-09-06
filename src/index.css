@@ -71,7 +71,7 @@ border-collapse: separate;
         font-size: 60px;
         width: 2500px;
         color: #005495;
-        font-family: Archivo, 'sans-serif';
+        font-family: 'Archivo';
         font-style: normal;
         border-collapse: separate;
         text-indent: initial;
@@ -83,7 +83,7 @@ border-collapse: separate;
     }      
 .autoliv-content{
         left: -10px;
-    font-family: Archivo, 'sans-serif';
+    font-family: 'Archivo', 'sans-serif';
     position: absolute;
     width: 800px;
     height: 153px;
@@ -114,8 +114,8 @@ body{
         padding: 0px;
     }
     .topnav-options{
-        color: #005495;
-    font-family: Archivo, 'sans-serif';
+    color: #749ed4;
+    font-family: 'Archivo', 'sans-serif';
     FONT-WEIGHT: bold;
     padding: 5px 18px 5px;
     text-decoration: none;
@@ -163,7 +163,7 @@ body{
 .Header-portalcontent{
     left: 298px;
     top: 730px;
-    font-family: Archivo, 'sans-serif';
+    font-family: 'Archivo', 'sans-serif';
     font-weight: lighter;
     left: 298px;
     position: absolute;
@@ -188,7 +188,7 @@ body{
 .PartnerPortalContent-3{
     left: 298px;
     top: 900px;
-    font-family: Archivo, 'sans-serif';
+    font-family: 'Archivo', 'sans-serif';
     position: absolute;
     width: 800px;
     height: 153px;
@@ -312,32 +312,33 @@ font-size:18px;
 }
 
 .link:hover {
-    text-decoration: none; /* Ensures no underline on hover */
-    color: #004080; /* Optional: Change color on hover */
+    color: #007bff; /* Text color on hover */
+    
 }
 .link-1{
     position: relative;
     top: -932px;
     left: 760px;
     font-size: 18px;
-    color: #005495; /* Text color */
-    font-family: 'Archivo', 'sans-serif';
-    font-weight: bold; /* Use lowercase for consistency */
+    color: #005495;
+    font-family: 'Archivo';
+    FONT-WEIGHT: bold;
     padding: 5px 18px 5px;
-    text-decoration: none; /* Removes underline */
+    text-decoration: none;
+    font-size: 18px;
     line-height: 20px;
-    margin: 3px 0px 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 3px;
-    padding-bottom: 10px;
+    PADDING-BOTTOM: 10px;
+    MARGIN: 3px 0px 0px;
+    PADDING-LEFT: 15px;
+    PADDING-RIGHT: 15px;
+    TEXT-DECORATION: none;
+    PADDING-TOP: 3px;
     text-shadow: #e9f1fa 1px 1px 0;
-    display: inline-block; 
-    cursor: pointer; 
-    width: 800px;
+    display: inline-block;
+}
 
  
-}
+
 
 .link:hover {
     text-decoration: none; /* Ensures no underline on hover */
@@ -348,7 +349,7 @@ font-size:18px;
     top: -984px;
     left: 930px;
     font-size: 18px;
-    color: #005495; /* Text color */
+    color: #045ca0e1; /* Text color */
     font-family: 'Archivo', 'sans-serif';
     font-weight: bold; /* Use lowercase for consistency */
     padding: 5px 18px 5px;
@@ -359,7 +360,7 @@ font-size:18px;
     padding-right: 15px;
     padding-top: 3px;
     padding-bottom: 10px;
-    text-shadow: #e9f1fa 1px 1px 0;
+    text-shadow: #ffffff 1px 1px 0;
     display: inline-block; 
     cursor: pointer; 
     width: 800px;
@@ -369,7 +370,7 @@ font-size:18px;
 
 .link:hover {
     text-decoration: none; /* Ensures no underline on hover */
-    color: #004080; /* Optional: Change color on hover */
+    color: #71a6db; /* Optional: Change color on hover */
 }
 .link-3{
     position: relative;
@@ -507,7 +508,7 @@ font-size:18px;
   button {
     width: 40%;
     background-color: #000000;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px;
     border: none;
     border-radius: 10px;
