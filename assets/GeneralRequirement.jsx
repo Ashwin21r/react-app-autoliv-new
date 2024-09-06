@@ -7,11 +7,14 @@ function GeneralRequirement() {
       </h1><ul>
               <p><Link to="/main" className="link">Home</Link></p>
               <p><Link to="/supplier" className="link-1">Supplier Access</Link></p>
-              <p><Link to="/main" className="link">Home</Link></p>
-        <p><Link to="/genralrequirment" className="link-3">General Requirement</Link></p>
+              <p><Link to="/support" className="link-2">Support</Link></p>
+              <p><Link to="/genralrequirment" className="link-3">General Requirement</Link></p>
               <p><a href="https://www.autoliv.com/contact-us" target='blank' className="link-4">Contact Us</a></p>
               <p><a href="https://www.autoliv.com" target='blank' className="link-5">autoliv.com</a></p>
               <p className="generalrequirment-text">You can access the general requirements below:</p>
+
+
+
           </ul></><a className="externallink-4" href="https://www.autoliv.com/ipu_terms_and_conditions" target="blank">Commercial Terms and Conditions for Indirect Purchasing</a></>
           <a className="externallink-5" href="https://www.autoliv.com/suppliercodeofconduct" target="blank">Supplier Code of Conduct</a>
           <a className="externallink-6" href="https://www.autoliv.com/sites/default/files/2022-06/Supplier_Portal_Privacy_Policy_and_data_privacy_notice_for_business_partners.pdf" target="blank">Supplier Portal Privacy Policy and data privacy notice for business partners</a>

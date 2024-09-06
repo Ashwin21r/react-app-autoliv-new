@@ -11,7 +11,7 @@ function Support() {
       </h1><></><></><ul>
               <p><Link to="/main" className="link">Home</Link></p>
               <p><Link to="/supplier" className="link-1">Supplier Access</Link></p>
-              <p><Link to="/main" className="link">Home</Link></p>
+              <p><Link to="/support" className="link-2">Support</Link ></p>
               <p><Link to="/genralrequirment" className="link-3">General Requirement</Link></p>
               <p><a href="https://www.autoliv.com/contact-us" target="_blank" className="link-4">Contact Us</a></p>
               <p><a href="https://www.autoliv.com"   target="blank"       className="link-5">autoliv.com</a></p>
