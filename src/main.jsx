@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Supplier from '../assets/SupplierAccess'; // Correct path
+import SupplierAccess from '../assets/SupplierAccess'; // Correct path
 import Homepage from '../assets/Homepage'; // Correct path
-import Support from './Support';
-import Generalrequirment from './GeneralRequirment';
+import Support from '../assets/Support';
+import Generalrequirment from '../assets/Generalrequirment';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/supplier',  // Route for Supplier page
-    element: <Supplier />,
+    element: <SupplierAccess/>,
   },
   
   {
