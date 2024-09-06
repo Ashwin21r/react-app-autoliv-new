@@ -1,26 +1,21 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Support from "../assets/Support";
-import SupplierAccess from "../assets/SupplierAccess";
-import Homepage from "../assets/Homepage";
-import Generalrequirment from "../assets/Generalrequirment";
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Homepage from './components/Homepage';
+import Supplier from './components/Supplier';
+import Support from './components/Support';
+import GeneralRequirement from './components/GeneralRequirement';
 
 function App() {
   return (
-      
-
     <Router>
-    <Switch>
-    <Route path="/" element={<Homepage />} />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
         <Route path="/main" element={<Homepage />} />
-        <Route path="/supplier" element={<SupplierAccess/>} />
+        <Route path="/supplier" element={<Supplier />} />
         <Route path="/support" element={<Support />} />
-        <Route path="/generalrequirment" element={<Generalrequirment/>} />
-    </Switch>
-  </Router>
-    
+        <Route path="/generalrequirment" element={<GeneralRequirement />} />
+      </Routes>
+    </Router>
+  );
+}
 
-    );
-  }
-
-export default App 
+export default App;

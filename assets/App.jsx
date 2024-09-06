@@ -1,22 +1,21 @@
-import SupplierAccess from "./SupplierAccess";
-import Homepage from "./Homepage";
-import Support from "./Support";
-import Generalrequirment from "./Generalrequirment";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Homepage from './components/Homepage';
+import Supplier from './components/Supplier';
+import Support from './components/Support';
+import GeneralRequirement from './components/GeneralRequirement';
 
 function App() {
   return (
     <Router>
-    <Switch>
-    <Route path="/main" component={Homepage} />
-      <Route path="/main" component={Homepage} />
-      <Route path="/supplier" component={SupplierAccess} />
-      <Route path="/support" component={Support} />
-      <Route path="/genralrequirment" exact component={Generalrequirment} />
-      <Route component={Homepage} /> {/* Fallback route for 404 */}
-    </Switch>
-  </Router>
-    );
-  }
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/main" element={<Homepage />} />
+        <Route path="/supplier" element={<Supplier />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/generalrequirment" element={<GeneralRequirement />} />
+      </Routes>
+    </Router>
+  );
+}
 
 export default App;
