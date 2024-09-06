@@ -9,8 +9,12 @@ import Generalrequirment from '../assets/Generalrequirment';
 
 const router = createBrowserRouter([
   {
-    path: '/main',  // Route for Homepage
+    path: '/',  // Route for Homepage
     element: <Homepage />,
+  },
+  {  path:'/main',
+    element:<Homepage/>
+
   },
   {
     path: '/supplier',  // Route for Supplier page
