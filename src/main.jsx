@@ -4,8 +4,8 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Supplier from '../assets/SupplierAccess'; // Correct path
 import Homepage from '../assets/Homepage'; // Correct path
-import Support from '../assets/Support';
-import Generalrequirment from '../assets/Generalrequirment';
+import Support from './Support';
+import Generalrequirment from './GeneralRequirment';
 
 const router = createBrowserRouter([
   {
