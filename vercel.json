@@ -1,0 +1,30 @@
+{
+    "routes":[
+        
+        {
+            "src": "/",  
+            "dest":"/"
+          },
+          { "src":"/main",
+           "dest":"/"
+        
+          },
+          {
+           "src": "/supplier", 
+            "dest": "/"
+          },
+          
+          {
+            "src":"/support",
+           "dest":"/"
+        
+          },
+          {
+            "src":"/genralrequirment",
+            "dest":"/"
+        
+          }
+
+
+    ]
+}
