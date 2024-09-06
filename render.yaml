@@ -1,0 +1,3 @@
+rewrites:
+  - source: /<*>   # Matches all routes
+    destination: /   # Redirects to index.html
