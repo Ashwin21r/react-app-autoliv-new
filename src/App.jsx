@@ -13,7 +13,7 @@ function App() {
     <Switch>
     <Route path="/" element={<Homepage />} />
         <Route path="/main" element={<Homepage />} />
-        <Route path="/supplier" element={<SupplierAccess />} />
+        <Route path="/supplier" element={<SupplierAccess/>} />
         <Route path="/support" element={<Support />} />
         <Route path="/generalrequirment" element={<Generalrequirment/>} />
     </Switch>
