@@ -1,7 +1,10 @@
 import path from 'path';
+import { fileURLToPath } from 'url'; // To handle __dirname in ES modules
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-const __dirname = path.resolve();
+// Use fileURLToPath and import.meta.url to emulate __dirname in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export default {
     context: __dirname,
@@ -12,7 +15,7 @@ export default {
         publicPath: '/'
     },
     devServer: {
-        historyApiFallback: true
+        historyApiFallback: true,
     },
     module: {
         rules: [
@@ -38,3 +41,4 @@ export default {
         extensions: ['.js', '.jsx']
     }
 };
+
