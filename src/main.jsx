@@ -5,7 +5,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import SupplierAccess from '../assets/SupplierAccess'; // Correct path
 import Homepage from '../assets/Homepage'; // Correct path
 import Support from '../assets/Support';
-import Generalrequirment from '../assets/Generalrequirment';
+import GeneralRequirement from '../assets/GeneralRequirement'; // Check path and name
+
 
 const router = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
   },
   {
     path:'/genralrequirment',
-    element:<Generalrequirment/>
+    element:<GeneralRequirement/>
 
   }
 ]);

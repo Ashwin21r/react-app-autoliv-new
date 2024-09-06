@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function Generalrequirment() {
+function GeneralRequirement() {
   return (
     <><><><><background><img className="Header-image" src="\autoliv-partner-portal-general-requirements.jpg" alt="banner" /></background><img className="Header-image-2" src="Rectangle 1 (3).png" alt="rect1" /><img className="Header-image-3" src="Rectangle 1 (3).png" alt="rect2" /><img className="Header-logo" src="logo.png" alt="logo" /><h1 className="AutolivPartnerPortalText-1">
           General Requirements
@@ -32,5 +32,5 @@ function Generalrequirment() {
               )
               }
 
-              export default Generalrequirment
+              export default GeneralRequirement
    
