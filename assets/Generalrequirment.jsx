@@ -6,7 +6,7 @@ function Generalrequirment() {
           General Requirements
       </h1><ul>
               <p><Link to="/main" className="link">Home</Link></p>
-              <p><Link to="/supplieraccess" className="link-1">Supplier Access</Link></p>
+              <p><Link to="/supplier" className="link-1">Supplier Access</Link></p>
               <p><a href="/support" className="link-2">Support</a></p>
               <p><a href="/genralrequirment" className="link-3">General Requirement</a></p>
               <p><a href="https://www.autoliv.com/contact-us" target='blank' className="link-4">Contact Us</a></p>

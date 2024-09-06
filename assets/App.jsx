@@ -10,7 +10,7 @@ function App() {
     <Switch>
     <Route path="/main" component={Homepage} />
       <Route path="/main" component={Homepage} />
-      <Route path="/supplieraccess" component={SupplierAccess} />
+      <Route path="/supplier" component={SupplierAccess} />
       <Route path="/support" component={Support} />
       <Route path="/genralrequirment" exact component={Generalrequirment} />
       <Route component={Homepage} /> {/* Fallback route for 404 */}
