@@ -94,7 +94,7 @@ html{
     height: 100%;
     margin: 0px;
     width: 342px;
-    height: 100px;
+    height: 100%;
     border-top-width: 10px;
     border-bottom-width: 0px;
     border-left-width: 10px;
@@ -108,11 +108,15 @@ html{
     width: 100%;
     overflow-x:hidden;
   }
-body{
+ 
+
+
+        
+
+
+
+
     
-        margin: 0px;
-        padding: 0px;
-    }
     .topnav-options{
     color: #749ed4;
     font-family: 'Archivo', 'sans-serif';
@@ -232,7 +236,7 @@ body{
     padding-left: 300px;
     padding-top:70px;
     justify-content: center;
-    margin-top: -20%;
+    margin-top: -50%;
 }
 
 .footer-text-supplier{    
@@ -951,12 +955,83 @@ margin-inline-end: 0px;
 unicode-bidi: isolate;
 
 }
+/* styles.css */
+.login-section {
+    padding: 120px;
+    color: #e9f1fa;
+    position: relative;
+    left: 60%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    font-family: 'Archivo';
+    height: 250px;
+    width: 300px;
+    margin: 40px auto; /* Center vertically and provide spacing from other content */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #005495; /* White background for a clean look */
+}
 
+.input-control {
+    display: block;
+    width: 100%; /* Full width of the parent container */
+    padding: 12px; /* Increased padding for better user experience */
+    margin-bottom: 12px; /* Spacing between input fields */
+    border: 1px solid #005495;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+}
 
+.btn {
+    padding: 14px; /* Increased padding for the button */
+    border: none;
+    background-color:#111111; /* Amazon's yellow button color */
+    color: #fffefe; /* Text color for the button */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Full width of the parent container */
+    font-size: 16px;
+    box-sizing:border-box; 
+    position: relative;
+    top:10px/* Ensures padding and border are included in the total width and height */
+}
 
+.btn:hover {
+    background-color: #555050; /* Slightly darker yellow on hover */
+}
 
+.errmsg {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 12px;
+    position: relative;
+    top:210px;
+    left:0px /* Spacing between error message and form fields */
+}
 
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+.LoginForm-home{
+    left:-350px;
+    top:-700px;
+    position:relative;
+   
+}
+.Forgotpass{
+    color: #e9f1fa;
+}
+.login-logo{
+    position: relative;
+    top:-350px;
+    left:00px;
+    
+    
+}
+.Header-login{
+    position: relative;
+    left:80px;
+    font-size:38;
+}
 
-
-
-  
