@@ -1014,7 +1014,7 @@ unicode-bidi: isolate;
     left: -9999px;
 }
 .LoginForm-home{
-    left:-350px;
+    left:-380px;
     top:-700px;
     position:relative;
    
@@ -1025,7 +1025,7 @@ unicode-bidi: isolate;
 .login-logo{
     position: relative;
     top:-350px;
-    left:00px;
+    left:0px;
     
     
 }
