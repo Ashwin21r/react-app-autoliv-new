@@ -7,6 +7,8 @@ import Homepage from '../assets/Homepage'; // Correct path
 import Support from '../assets/Support';
 import GeneralRequirement from '../assets/GeneralRequirement'; // Check path and name
 import LoginForm from '../assets/LoginForm';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const router = createBrowserRouter([

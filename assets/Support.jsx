@@ -26,8 +26,8 @@ function Support() {
                <p className='support-header-text'>Permission / Functionality Support</p>
                <p className='support-text1'>Problems with a forgotten password, company profile, user profiles, accessing library documents or bulletins, and accessing applications.
                </p>
-               <img className='table'src='\table.PNG'></img>
-               <p className='support-text2'><strong>For technical support (e.g. broken functionality or web links), please contact one of the regional IT Service Desks:</strong></p>
+               <img className='table'src='public\Capture.PNG'></img>
+               <p className ='support-text2'><strong> For technical support (e.g. broken functionality or web links), please contact one of the regional IT Service Desks:</strong></p>
                <p className='support-text3'>North & South America: +1-801-612-5555 Europe: +40 268 440 888</p>
                 <p className='support-text4'><strong>You can also submit a support request via email, using the following:</strong></p>
                 <ul className='support-text5'><li>Email address:<a href='helpdesk.admin[at]autoliv.com'target="blank">helpdesk.admin[at]autoliv.com</a></li></ul>

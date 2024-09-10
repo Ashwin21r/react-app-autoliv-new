@@ -3,7 +3,7 @@ import LoginForm from './LoginForm';
 
 function Homepage() {
     return (
-        <><div className="homepage">
+        <><><div className="homepage">
         <img className="Header-image" src="autoliv-partner-portal-home-banner.png" alt="banner" />
         <img className="Header-image-2" src="Rectangle 1 (3).png" alt="rect1" />
         <img className="Header-image-3" src="Rectangle 1 (3).png" alt="rect2" />
@@ -19,7 +19,7 @@ function Homepage() {
           <p><a href="https://www.autoliv.com/contact-us" target="blank" className="link-4">Contact Us</a></p>
           <p><a href="https://www.autoliv.com" target="blank" className="link-5">autoliv.com</a></p>
         </ul>
-<div className='LoginForm-home'><LoginForm></LoginForm></div>
+        <div className='LoginForm-home'><LoginForm></LoginForm></div>
 
       </div><p className="PartnerPortalContent">
           The Autoliv Partner Portal is the entry point for suppliers and other partners to access Autoliv web-enabled applications and databases. If you already have an account, press the Login link.
@@ -39,8 +39,8 @@ function Homepage() {
             Autoliv claims the copyright interest in the compilation in all the Autoliv website Content, including without limitation, the incorporated Autoliv websites. The laws of the United States of America and all other signatories to the Berne Convention protect the copyright owner from infringement and you represent that you have read, understand and agree to The U.S. Copyright Act and such other applicable laws and regulations of other countries and you will not violate them in your access and use of any Autoliv website and that you will indemnify and hold Autoliv harmless.
           </div>
           <p>Copyright © Autoliv Inc. 2012 All rights reserved.</p>
-        </footer></>
-        
+        </footer></><p><a className='logo-login' href="public\autoliv-logo-blue.gif"></a></p></>
+    
     );
 }
 
