@@ -45,7 +45,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <LoginForm/>
     <RouterProvider router={router} />
   </React.StrictMode>
 );
