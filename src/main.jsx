@@ -11,6 +11,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 
 
+
 const router = createBrowserRouter([
   {
     path: '/',  // Route for Homepage
@@ -44,7 +45,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-
+    <LoginForm/>
     <RouterProvider router={router} />
   </React.StrictMode>
 );

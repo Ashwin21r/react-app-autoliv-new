@@ -25,7 +25,7 @@ const LoginForm = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('https://reqres.in/api/login', {
+            const response = await axios.post('http://localhost:5173/auth', {
                 email: user,
                 password: pwd,
             });
