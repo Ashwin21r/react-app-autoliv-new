@@ -61,7 +61,7 @@ const LoginForm = () => {
                 <div className="col-md-6">
                     <div className="login-section">
                         <div className="login-logo">
-                            <img src="public/autoliv-logo-blue.gif" alt="Logo" />
+                            <img src="/autoliv-logo-blue.gif" alt="Logo" />
                         </div>
                         <h2 className="Header-login">Sign In</h2>
                         <h2 className="Header-title">Autoliv Partner Portal</h2>
